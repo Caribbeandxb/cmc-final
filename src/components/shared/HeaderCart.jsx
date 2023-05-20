@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import React from 'react';
-import Layout from '../layouts';
 import Link from 'next/link';
 
 const HeaderCart = () => {
   return (
-    <Layout>
-      <main className=' max-h-screen w-full'>
+    <>
+      <main className=' h-full m-0 p-0 w-full'>
         {/* Cart header start */}
         <article className='w-full h-48 md:max-w-6xl md:mx-auto md:max-h-full md:h-full md:flex'>
           {/* cart Image */}
@@ -51,7 +50,7 @@ const HeaderCart = () => {
         </article>
         {/* Cart header end */}
       </main>
-    </Layout>
+    </>
   );
 };
 

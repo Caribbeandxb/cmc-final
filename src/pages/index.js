@@ -13,7 +13,7 @@ const HomePage = () => {
       <HeaderCart />
 
       {/* Info */}
-      <div className='text-center my-20'>
+      <div className='text-center my-20 md:m-10'>
         {/* Info one */}
         <div className='my-4'>
           <h3 className='text-mainLightColor text-xl py-2'>BUILT ON 30 YEARS OF TRUST</h3>
