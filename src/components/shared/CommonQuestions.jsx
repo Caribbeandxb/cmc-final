@@ -4,7 +4,7 @@ import React from 'react';
 
 const CommonQuestions = () => {
   return (
-    <main className=''>
+    <main className='max-w-lg mx-auto lg:max-w-5xl'>
       <h3 className='text-mainLightColor text-2xl my-2 uppercase'>
         common questions
       </h3>
