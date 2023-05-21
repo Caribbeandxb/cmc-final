@@ -2,7 +2,7 @@ import Image from 'next/image';
 const Partners = () => {
   return (
     <div className='flex flex-col justify-center items-center'>
-      <h1 className='text-2xl font-semibold tracking-wide'>
+      <h1 className='lg:text-2xl text-lg text-center font-semibold tracking-wide'>
         Partners of Dominica's Housing Program Financed By CBI
       </h1>
       <article className='w-full flex justify-around items-center'>
