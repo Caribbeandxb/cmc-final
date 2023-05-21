@@ -9,7 +9,7 @@ const CommonQuestions = () => {
         common questions
       </h3>
       <article className='flex items-center flex-col w-full lg:grid lg:grid-cols-3 lg:gap-4'>
-        <div className='my-5'>
+        <div className='my-5 mx-5'>
           {/* why dominica */}
           <div className='w-full'>
             <Image
@@ -34,7 +34,7 @@ const CommonQuestions = () => {
         </div>
 
         {/* How Long */}
-        <div className='my-5'>
+        <div className='my-5 mx-5'>
           <div className='w-full '>
             <Image
               className='block object-cover w-full'
@@ -58,7 +58,7 @@ const CommonQuestions = () => {
         {/* How Long */}
 
         {/* why dominica */}
-        <div className='my-5'>
+        <div className='my-5 mx-5'>
           <div className='w-full '>
             <Image
               className='block object-cover w-full'
