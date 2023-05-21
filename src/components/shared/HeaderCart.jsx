@@ -4,7 +4,7 @@ import Link from 'next/link';
 const HeaderCart = () => {
   return (
     <>
-      <main className='h-screen lg:h-full m-0 p-0 w-full md:max-h-96 md:max-w-4xl md:mx-auto'>
+      <main className='h-screen lg:h-full mx-auto m-0 p-0 max-w-lg md:max-h-96 md:max-w-2xl lg:max-w-4xl md:mx-auto'>
         {/* Cart header start */}
         <article className='w-full h-48 md:max-w-6xl md:mx-auto md:max-h-full md:h-full md:flex'>
           {/* cart Image */}
