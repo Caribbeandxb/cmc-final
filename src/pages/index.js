@@ -1,4 +1,5 @@
 import Layout from '@/components/layouts';
+import CommonQuestions from '@/components/shared/CommonQuestions';
 import HeaderCart from '@/components/shared/HeaderCart';
 import MainInfo from '@/components/shared/MainInfo';
 import Head from 'next/head';
@@ -14,6 +15,8 @@ const HomePage = () => {
       <HeaderCart />
       {/* main info */}
       <MainInfo />
+      {/* common question cart */}
+      <CommonQuestions />
     </Layout>
   );
 };
