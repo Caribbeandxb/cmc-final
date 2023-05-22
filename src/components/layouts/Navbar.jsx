@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { useRouter } from 'next/router';
+import Image from 'next/image';
 const Navbar = () => {
   // navItems that are shown in navbar
   const navItems = [
@@ -23,10 +24,18 @@ const Navbar = () => {
   }, [currentPath]);
 
   return (
-    <header className='flex justify-between flex-row-reverse h-10  my-10 mx-10 lg:max-w-full  lg:block lg:mt-20 lg:mx-20 lg:h-10'>
+    <header className='flex justify-between items-center flex-row-reverse h-10  my-36 mx-10 lg:max-w-full  lg:block lg:mt-20 lg:mx-20 lg:h-10'>
       <div className='block flex-1 text-center h-fit w-full'>
         <div>
-          <Link href={'/'}>LOGO</Link>
+          <Link className='block' href={'/'}>
+            <Image
+              className='block mx-auto object-cover'
+              src='/images/logo.png'
+              width={200}
+              height={200}
+              alt='logo'
+            />
+          </Link>
         </div>
       </div>
       {/* open btn */}
