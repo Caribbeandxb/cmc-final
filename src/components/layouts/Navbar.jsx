@@ -27,12 +27,12 @@ const Navbar = () => {
     <header className='flex justify-between items-center flex-row-reverse h-10  my-36 mx-10 lg:max-w-full  lg:block lg:mt-20 lg:mx-20 lg:h-10'>
       <div className='block flex-1 text-center h-fit w-full'>
         <div>
-          <Link className='block' href={'/'}>
+          <Link className='block lg:w-2/12  mx-auto' href={'/'}>
             <Image
-              className='block mx-auto object-cover'
-              src='/images/logo.png'
-              width={200}
-              height={200}
+              className='block object-cover mx-auto'
+              src='/images/logo-tr.png'
+              width={220}
+              height={220}
               alt='logo'
             />
           </Link>
