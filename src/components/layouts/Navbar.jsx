@@ -1,8 +1,9 @@
 import Link from 'next/link';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { HiMenu, HiX } from 'react-icons/hi';
 import { useRouter } from 'next/router';
 const Navbar = () => {
+  // navItems that are shown in navbar
   const navItems = [
     'home',
     'dominica passport',
@@ -10,11 +11,16 @@ const Navbar = () => {
     'pricing',
     'contact us',
   ];
+  // getting current path
   const router = useRouter();
   const currentPath = router.pathname;
-  console.log(currentPath);
 
   const [isOpen, setIsOpen] = useState(false);
+
+  // closing navbar on small sizes when url changes
+  useEffect(() => {
+    setIsOpen(false);
+  }, [currentPath]);
 
   return (
     <header className='flex justify-between flex-row-reverse h-10  my-10 mx-10 lg:max-w-full  lg:block lg:mt-20 lg:mx-20 lg:h-10'>
@@ -48,6 +54,9 @@ const Navbar = () => {
         >
           {/* rendering navItems */}
           {navItems.map((item) => {
+            // joining navItems that are two or more words with ('-')
+            // to simplify the routing part in pages/
+            const joinedItem = item.replace(' ', '-');
             return (
               <li
                 key={item}
@@ -58,10 +67,16 @@ const Navbar = () => {
                 {/* checking for home keyword to set it to default */}
                 <Link
                   className='text-2xl  capitalize  active:font-bold w-full  lg:font-semibold lg:text-xl '
-                  href={`/${item.toLowerCase() === 'home' ? '' : item}`}
+                  // checking to see if current navItem is HOME and
+                  // if it is than don't add anything else add the navItem
+                  href={`/${
+                    joinedItem.toLowerCase() === 'home'
+                      ? ''
+                      : joinedItem.toLowerCase()
+                  }`}
                 >
                   {item}
-                </Link>{' '}
+                </Link>
               </li>
             );
           })}
