@@ -82,7 +82,7 @@ const DominicaPassportPage = () => {
             </div>
             {/* card */}
             <div
-              className='max-h-64 min-h-fit max-w-full p-3 my-10 bg-mainLightColor
+              className='max-h-fit min-h-fit max-w-full p-3 my-10 bg-mainLightColor
             lg:w-4/12 lg:mx-auto lg:max-h-full lg:my-0
             '
             >
@@ -99,10 +99,10 @@ const DominicaPassportPage = () => {
                   months, Dominica is now of the most popular destinations for
                   second citizenship in the world.
                 </p>
-                <button className='bg-mainColor tracking-wide my-3 py-4 px-12 text-secondaryLightColor uppercase'>
-                  <Link href={'/contact-us'}>apply today</Link>
-                </button>
               </div>
+              <button className='bg-mainColor tracking-wide my-3 py-4 px-12 text-secondaryLightColor uppercase'>
+                <Link href={'/contact-us'}>apply today</Link>
+              </button>
             </div>
             {/* card */}
           </article>
