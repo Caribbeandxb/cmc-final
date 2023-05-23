@@ -1,9 +1,10 @@
 const Footer = () => {
   const currentYear = new Date().getFullYear().toString();
   return (
-    <footer className='text-center font-light my-2'>
+    <footer className='text-center font-light mt-9 mb-3'>
       <p>
-        COPYRIGHT &copy; {currentYear} JEFFERSON & YORK - ALL RIGHTS RESERVED.
+        COPYRIGHT &copy; {currentYear} Caribbean Management Consultancies - ALL
+        RIGHTS RESERVED.
       </p>
     </footer>
   );
