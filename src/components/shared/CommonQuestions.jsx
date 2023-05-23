@@ -8,7 +8,7 @@ const CommonQuestions = () => {
       <h3 className='text-mainLightColor text-2xl my-2 uppercase'>
         common questions
       </h3>
-      <article className='flex items-center flex-col w-full lg:grid lg:grid-cols-3 lg:gap-4'>
+      <article className='flex items-center flex-col w-full lg:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-4'>
         <div className='my-5 mx-5'>
           {/* why dominica */}
           <div className='w-full'>
