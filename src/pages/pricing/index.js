@@ -1,9 +1,13 @@
 import Layout from '@/components/layouts';
+import Head from 'next/head';
 import React from 'react';
 
 const PricingPage = () => {
   return (
     <Layout>
+      <Head>
+        <title>CMC | Pricing</title>
+      </Head>
       <h3 className='tracking-wide py-4 lg:p-5 font-light text-mainLightColor uppercase'>
         PRICING PLANS AND COSTS{' '}
       </h3>
