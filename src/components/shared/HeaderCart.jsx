@@ -40,7 +40,7 @@ const HeaderCart = () => {
               </div>
               <div className='mb-5 bg-secondaryColor rounded-md'>
                 <button className='px-2 py-1 uppercase text-secondaryLightColor'>
-                  <Link href={'/'}>get a free quote</Link>
+                  <Link href={'/contact-us'}>get a free quote</Link>
                 </button>
               </div>
             </div>
