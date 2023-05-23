@@ -24,16 +24,16 @@ const Navbar = () => {
   }, [currentPath]);
 
   return (
-    <header className='flex justify-between items-center flex-row-reverse h-10  my-36 mx-10 lg:max-w-full  lg:block lg:mt-20 lg:mx-20 lg:h-10'>
+    <header className='flex justify-between items-center flex-row-reverse h-10 my-10 mx-10 lg:max-w-full  lg:block lg:mt-7 lg:mb-36  '>
       <div className='block flex-1 text-center h-fit w-full'>
-        <div>
-          <Link className='block lg:w-2/12  mx-auto' href={'/'}>
+        <div className='max-w-sm max-h-28 lg:max-w-lg my-0 p-0 mx-auto'>
+          <Link className='block m-0 p-0' href={'/'}>
             <Image
-              className='block object-cover mx-auto'
+              className='block object-cover p-0 w-1/2 lg:w-3/4 lg:max-h-24  mx-auto'
               src='/images/logo-tr.png'
-              width={220}
-              height={220}
-              alt='logo'
+              width={425}
+              height={450}
+              alt='cmc logo'
             />
           </Link>
         </div>
