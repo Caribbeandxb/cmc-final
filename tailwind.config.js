@@ -12,6 +12,7 @@ module.exports = {
         secondaryColor: '#19376D',
         mainLightColor: '#576CBC',
         secondaryLightColor: '#A5D7E8',
+        Matisse: '#207798',
         white: '#fff',
       },
     },
