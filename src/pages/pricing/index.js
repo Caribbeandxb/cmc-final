@@ -1,31 +1,31 @@
 import Layout from '@/components/layouts';
 import React from 'react';
 
-const ProcessPage = () => {
+const PricingPage = () => {
   return (
     <Layout>
-      <h3 className='tracking-wide py-4 lg:p-5 font-light text-mainLightColor'>
-        PROCESS AND ESTIMATED TIMELINE
+      <h3 className='tracking-wide py-4 lg:p-5 font-light text-mainLightColor uppercase'>
+        PRICING PLANS AND COSTS{' '}
       </h3>
       <article className='max-w-lg mx-auto block'>
         {/* first state */}
         <div className='border-b-2 mb-20'>
           <h1 className='font-medium text-secondaryLightColor text-2xl'>
-            First Stage (Your Submissions)
+            Economic Diversification Fund (Donation){' '}
           </h1>
           <p className='text-slate-500 text-sm'>
-            This step usually takes about two to three weeks
+            Minimum EDF Contribution Requirements{' '}
           </p>
           <div className='mb-16'>
-            <ul className='list-decimal ml-5'>
+            <ul className=''>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Filling out the application
+                Single applicant USD 100,000{' '}
               </li>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Providing the supporting documents
+                Main applicant plus spouse USD 150,000{' '}
               </li>
               <li className='mb-3  p-3 text-lg first-letter:uppercase '>
-                Initial payment of due diligence fee
+                Family of three or four USD 175,000{' '}
               </li>
             </ul>
           </div>
@@ -34,49 +34,45 @@ const ProcessPage = () => {
         {/* second state */}
         <div className='border-b-2  mb-10'>
           <h1 className='font-medium text-secondaryLightColor text-2xl'>
-            Second Stage (Government Processing)
+            Additional EDF Fees{' '}
           </h1>
           <p className='text-slate-500 text-sm'>
-            This step usually takes about one to two months
+            The following fees must be paid in addition to the minimum EDF
+            contribution{' '}
           </p>
           <div className='mb-16'>
-            <ul className='list-decimal ml-5'>
+            <ul className=''>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Application submitted to government
+                Applicant due diligence fee USD 7,500{' '}
               </li>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Government processes the application
+                Spouse due diligence fee USD 4,000
+              </li>
+              <li className='my-3 p-3 text-lg first-letter:uppercase '>
+                Dependent due diligence fee USD 4,000
+              </li>
+              <li className='my-3 p-3 text-lg first-letter:uppercase '>
+                Application Processing Fee USD 1,000
+              </li>
+              <li className='my-3 p-3 text-lg first-letter:uppercase '>
+                Certificate of Naturalization fee USD 250
+              </li>
+              <li className='my-3 p-3 text-lg first-letter:uppercase '>
+                Legal Fees USD 5,000
               </li>
             </ul>
           </div>
         </div>
         {/* second state */}
-        {/* third state */}
-        <div className=' '>
-          <h1 className='font-medium text-secondaryLightColor text-2xl'>
-            Third Stage (Approval)
-          </h1>
-          <p className='text-slate-500 text-sm'>
-            This step usually takes about three to four weeks
-          </p>
-          <div className='mb-14'>
-            <ul className='list-decimal ml-5'>
-              <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                After approval contribution is paid
-              </li>
-              <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Passports are issued in 2-4 weeks
-              </li>
-            </ul>
-          </div>
-        </div>
-        {/* third state */}
-        <p className='text-slate-500 text-sm text-center mb-10'>
-          The entire process usually takes between two to four months.
+
+        <p className='text-slate-500 text-sm text-center mb-10 w-3/4 lg:w-full mx-auto'>
+          Enhanced due diligence fees may sometimes be required, depending on
+          the applicant’s current citizenship status, and other personal
+          circumstances.{' '}
         </p>
       </article>
     </Layout>
   );
 };
 
-export default ProcessPage;
+export default PricingPage;
