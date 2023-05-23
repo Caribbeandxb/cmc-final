@@ -6,6 +6,7 @@ const Footer = () => {
         COPYRIGHT &copy; {currentYear} Caribbean Management Consultancies - ALL
         RIGHTS RESERVED.
       </p>
+      {/* add developer name and information */}
     </footer>
   );
 };
