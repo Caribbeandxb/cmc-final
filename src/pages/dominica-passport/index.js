@@ -100,7 +100,7 @@ const DominicaPassportPage = () => {
                   second citizenship in the world.
                 </p>
                 <button className='bg-mainColor tracking-wide my-3 py-4 px-12 text-secondaryLightColor uppercase'>
-                  <Link href={'/'}>apply today</Link>
+                  <Link href={'/contact-us'}>apply today</Link>
                 </button>
               </div>
             </div>
