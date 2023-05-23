@@ -27,7 +27,7 @@ const CommonQuestions = () => {
               destinations. Dominica is Tax free & Business friendly.
             </p>
             <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/'}>learn more</Link>
+              <Link href={'/dominica-passport'}>learn more</Link>
             </button>
           </div>
           {/* why dominica */}
@@ -51,7 +51,7 @@ const CommonQuestions = () => {
               application to receiving the passport.
             </p>
             <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/'}>learn more</Link>
+              <Link href={'/process'}>learn more</Link>
             </button>
           </div>
         </div>
@@ -75,7 +75,7 @@ const CommonQuestions = () => {
               affordable option compared to other second citizenship programs.
             </p>
             <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/'}>learn more</Link>
+              <Link href={'/pricing'}>learn more</Link>
             </button>
           </div>
         </div>
