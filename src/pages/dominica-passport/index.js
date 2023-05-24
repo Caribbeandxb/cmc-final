@@ -1,17 +1,26 @@
 import Layout from '@/components/layouts';
 import { countries } from '@/lib';
 import Head from 'next/head';
+import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
 const DominicaPassportPage = () => {
   return (
-    <main className='md:mx-3'>
+    <main className='overflow-x-hidden'>
       <Head>
         <title>CMC | Dominica Passport</title>
       </Head>
       {/* banner  */}
-      <div>{/* banner should use full width of the page at all sizes */}</div>
+      <div className='w-screen'>
+        <Image
+          className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
+          src='/images/dom-passport-bg.jpg'
+          width={400}
+          height={400}
+          alt='dominica passport page header'
+        />
+      </div>
       {/* to avoid default css styles, use layout here */}
       <Layout>
         <div>
@@ -100,7 +109,10 @@ const DominicaPassportPage = () => {
                   second citizenship in the world.
                 </p>
               </div>
-              <button className='bg-mainColor tracking-wide my-3 py-4 px-12 text-secondaryLightColor uppercase'>
+              <button
+                className='bg-mainColor tracking-wide my-3 py-4 px-12
+               text-secondaryLightColor uppercase active:outline-none focus:outline-none '
+              >
                 <Link href={'/contact-us'}>apply today</Link>
               </button>
             </div>
