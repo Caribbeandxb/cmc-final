@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         {/* close btn */}
         <ul
-          className='flex flex-col ml-4 mt-10 text-secondaryLightColor h-10 
+          className='flex flex-col ml-4 mt-10 text-secondaryLightColor h-10 z-50
          lg:m-0 lg:p-0  lg:flex lg:flex-row lg:items-center lg:bg-none lg:w-full lg:max-w-2xl lg:mx-auto lg:text-center'
         >
           {/* rendering navItems */}
