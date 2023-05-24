@@ -9,12 +9,12 @@ const CommonQuestions = () => {
         common questions
       </h3>
       <article className='flex items-center flex-col w-full lg:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-4'>
-        <div className='my-5 mx-5'>
+        <div className='my-5 mx-5 '>
           {/* why dominica */}
-          <div className='w-full'>
+          <div className='w-full lg:h-64'>
             <Image
-              className='block object-cover w-full'
-              src='/images/why-dominica.webp'
+              className='block object-cover w-full h-full'
+              src='/images/why-dominica.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -34,11 +34,11 @@ const CommonQuestions = () => {
         </div>
 
         {/* How Long */}
-        <div className='my-5 mx-5'>
-          <div className='w-full '>
+        <div className='my-5 mx-5  '>
+          <div className='w-full lg:h-64 lg:max-h-64'>
             <Image
-              className='block object-cover w-full'
-              src='/images/how-long-does-it-take.webp'
+              className='block object-cover w-full h-full'
+              src='/images/how-long-does-it-take.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -57,12 +57,12 @@ const CommonQuestions = () => {
         </div>
         {/* How Long */}
 
-        {/* why dominica */}
-        <div className='my-5 mx-5'>
-          <div className='w-full '>
+        {/* how much does it take */}
+        <div className='my-5 mx-5 '>
+          <div className='w-full lg:h-64 '>
             <Image
-              className='block object-cover w-full'
-              src='/images/gow-much-does-it-cost.webp'
+              className='block object-cover w-full h-full'
+              src='/images/how-much-does-it-cost.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -79,7 +79,7 @@ const CommonQuestions = () => {
             </button>
           </div>
         </div>
-        {/* why dominica */}
+        {/* how much does it take */}
       </article>
     </main>
   );
