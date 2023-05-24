@@ -12,7 +12,7 @@ const DominicaPassportPage = () => {
         <title>CMC | Dominica Passport</title>
       </Head>
       {/* banner  */}
-      <div className='w-screen relative'>
+      <div className='w-screen relative -z-50'>
         <Image
           className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
           src='/images/dom-passport-bg.jpg'
