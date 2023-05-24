@@ -71,11 +71,11 @@ const Navbar = () => {
                 key={item}
                 className={`${
                   item === currentPath ? 'border-b-2' : ''
-                } my-4 lg:mx-auto hover:text-mainLightColor   `}
+                } my-4 lg:mx-auto hover:text-mainLightColor  active:outline-none focus:outline-none`}
               >
                 {/* checking for home keyword to set it to default */}
                 <Link
-                  className='text-2xl  capitalize  active:font-bold w-full  lg:font-semibold lg:text-xl '
+                  className='text-2xl  capitalize  active:font-bold w-full  lg:font-semibold lg:text-xl'
                   // checking to see if current navItem is HOME and
                   // if it is than don't add anything else add the navItem
                   href={`/${
