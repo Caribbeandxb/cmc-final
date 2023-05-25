@@ -47,7 +47,7 @@ const Navbar = () => {
         className={`${
           isOpen ? 'absolute' : 'hidden'
         } top-0 left-0 bg-secondaryColor h-full overflow-hidden w-full
-         lg:w-1/2 lg:mx-auto lg:block lg:bg-white  `}
+        lg:mx-auto lg:block lg:bg-white`}
       >
         {/* close btn */}
         <div
@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* close btn */}
         <ul
           className='flex flex-col ml-4 mt-10 text-secondaryLightColor h-10 z-50
-         lg:m-0 lg:p-0  lg:flex lg:flex-row lg:items-center lg:bg-none lg:w-full lg:max-w-2xl lg:mx-auto lg:text-center'
+         lg:m-0 lg:p-0  lg:flex lg:flex-row lg:items-center lg:bg-none lg:w-full lg:z-50 lg:max-w-2xl lg:mx-auto lg:text-center'
         >
           {/* rendering navItems */}
           {navItems.map((item) => {
@@ -71,7 +71,7 @@ const Navbar = () => {
                 key={item}
                 className={`${
                   item === currentPath ? 'border-b-2' : ''
-                } my-4 lg:mx-auto hover:text-mainLightColor  active:outline-none focus:outline-none`}
+                } my-4 lg:mx-4 hover:text-mainLightColor  active:outline-none focus:outline-none`}
               >
                 {/* checking for home keyword to set it to default */}
                 <Link
