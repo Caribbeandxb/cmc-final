@@ -46,7 +46,7 @@ const Navbar = () => {
       <nav
         className={`${
           isOpen ? 'absolute' : 'hidden'
-        } top-0 left-0 bg-secondaryColor h-screen overflow-hidden w-full
+        } top-0 left-0 bg-secondaryColor h-full overflow-hidden w-full
          lg:w-1/2 lg:mx-auto lg:block lg:bg-white  `}
       >
         {/* close btn */}
