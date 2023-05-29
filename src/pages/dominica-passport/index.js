@@ -1,5 +1,5 @@
 import Layout from '@/components/layouts';
-import { countries } from '@/lib';
+import Countries from '@/components/shared/Countries';
 import Head from 'next/head';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -84,12 +84,8 @@ const DominicaPassportPage = () => {
                     call home for life.
                   </li>
                 </ul>
-
-                <div className='my-3 text-sm font-normal text-slate-600'>
-                  {countries.map((country) => (
-                    <p key={country}>{country}</p>
-                  ))}
-                </div>
+                {/* countries */}
+                <Countries />
               </div>
             </div>
             {/* card */}
