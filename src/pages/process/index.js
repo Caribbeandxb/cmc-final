@@ -8,7 +8,7 @@ const ProcessPage = () => {
       <Head>
         <title>CMC | Process</title>
       </Head>
-      <h3 className='tracking-wide py-4 lg:p-5 font-light text-mainLightColor'>
+      <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PROCESS AND ESTIMATED TIMELINE
       </h3>
       <article className='max-w-lg mx-auto block'>

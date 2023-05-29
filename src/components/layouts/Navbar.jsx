@@ -26,10 +26,10 @@ const Navbar = () => {
   return (
     <header className='flex justify-between items-center flex-row-reverse h-10 my-10 mx-10 lg:max-w-full  lg:block lg:mt-7 lg:mb-36  '>
       <div className='block flex-1 text-center h-fit w-full'>
-        <div className='max-w-sm max-h-28 lg:max-w-lg my-0 p-0 mx-auto'>
-          <Link className='block m-0 p-0' href={'/'}>
+        <div className='max-w-sm max-h-28 lg:max-w-md my-0 p-0 mx-auto'>
+          <Link className='block m-0 p-0 w-1/2 mx-auto' href={'/'}>
             <Image
-              className='block object-cover p-0 w-1/2 lg:w-3/4 lg:max-h-24  mx-auto'
+              className='block object-cover w-full lg:max-h-24 mx-auto'
               src='/images/logo-tr.png'
               width={425}
               height={450}
@@ -46,7 +46,7 @@ const Navbar = () => {
       <nav
         className={`${
           isOpen ? 'absolute' : 'hidden'
-        } top-0 left-0 bg-secondaryColor h-full overflow-hidden w-full
+        } top-0 left-0 bg-mainColor h-full overflow-hidden w-full
         lg:mx-auto lg:block lg:bg-white`}
       >
         {/* close btn */}
@@ -59,7 +59,7 @@ const Navbar = () => {
         {/* close btn */}
         <ul
           className='flex flex-col ml-4 mt-10 text-secondaryLightColor h-10 z-50
-         lg:m-0 lg:p-0  lg:flex lg:flex-row lg:items-center lg:bg-none lg:w-full lg:z-50 lg:max-w-2xl lg:mx-auto lg:text-center'
+         lg:m-0 lg:p-0  lg:flex lg:flex-row lg:items-center lg:justify-center lg:bg-none lg:w-full lg:z-50 lg:max-w-2xl lg:mx-auto lg:text-center'
         >
           {/* rendering navItems */}
           {navItems.map((item) => {
@@ -71,11 +71,11 @@ const Navbar = () => {
                 key={item}
                 className={`${
                   item === currentPath ? 'border-b-2' : ''
-                } my-4 lg:mx-4 hover:text-mainLightColor  active:outline-none focus:outline-none`}
+                } my-4 lg:mx-4 text-mainLightColor hover:text-Matisse transition duration-500  active:outline-none focus:outline-none`}
               >
                 {/* checking for home keyword to set it to default */}
                 <Link
-                  className='text-2xl  capitalize  active:font-bold w-full  lg:font-semibold lg:text-xl'
+                  className='text-2xl capitalize active:outline-none focus:outline-none lg:font-semibold lg:text-xl'
                   // checking to see if current navItem is HOME and
                   // if it is than don't add anything else add the navItem
                   href={`/${

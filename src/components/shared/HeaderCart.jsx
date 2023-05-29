@@ -25,17 +25,18 @@ const HeaderCart = () => {
                 WELCOME TO YOUR FUTURE
               </h3>
               <div className='text-center my-5 md:my-1'>
-                <p className='font-light tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
-                  Freedom{' '}
+                <p className='font-light capitalize tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
+                  Your
                 </p>
-                <p className='font-light tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
-                  Security{' '}
+                <p className='font-light capitalize tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
+                  Gateway
                 </p>
-                <p className='font-light tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
-                  Happiness
+                <p className='font-light capitalize tracking-wide text-3xl lg:text-3xl lg:font-bold text-mainColor'>
+                  to freedom
                 </p>
                 <p className='my-2 text-secondaryLightColor'>
-                  Second Citizenship Is The Gateway To Endless Opportunities
+                  Dominica second citizenship is your gate to unlimited
+                  opportunities{' '}
                 </p>
               </div>
               <div className='mb-5 bg-secondaryColor rounded-md'>

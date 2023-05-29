@@ -8,7 +8,7 @@ const PricingPage = () => {
       <Head>
         <title>CMC | Pricing</title>
       </Head>
-      <h3 className='tracking-wide py-4 lg:p-5 font-light text-mainLightColor uppercase'>
+      <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PRICING PLANS AND COSTS{' '}
       </h3>
       <article className='max-w-lg mx-auto block'>
