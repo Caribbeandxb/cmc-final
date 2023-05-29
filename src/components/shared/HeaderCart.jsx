@@ -11,10 +11,11 @@ const HeaderCart = () => {
           <div className='block w-full m-0  md:m-0'>
             <Image
               className='w-full object-cover md:h-full md:w-full md:m-0'
-              src={'/images/header.jpg'}
+              src={'/images/HomePageMain.jpg'}
               alt='header'
               width={500}
               height={500}
+              priority={true}
             />
           </div>
           {/* cart Image */}

@@ -14,7 +14,7 @@ const CommonQuestions = () => {
           <div className='w-full lg:h-64'>
             <Image
               className='block object-cover w-full h-full'
-              src='/images/why-dominica.jpg'
+              src='/images/DominicaPassport.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -22,13 +22,16 @@ const CommonQuestions = () => {
           </div>
           <div className='max-h-fit lg:max-h-64  py-6 w-full bg-mainLightColor text-center'>
             <h4 className='my-4 font-bold text-xl'>Why Dominica?</h4>
-            <p className='my-1 text-sm  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
+            <p className='my-1 text-sm text-secondaryLightColor  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
               Visa free travel to UK, Schengen area & many more popular
               destinations. Dominica is Tax free & Business friendly.
             </p>
-            <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/dominica-passport'}>learn more</Link>
-            </button>
+            <Link
+              className='block w-1/2 mx-auto lg:w-3/4 bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'
+              href={'/dominica-passport'}
+            >
+              learn more
+            </Link>
           </div>
           {/* why dominica */}
         </div>
@@ -38,7 +41,7 @@ const CommonQuestions = () => {
           <div className='w-full lg:h-64 lg:max-h-64'>
             <Image
               className='block object-cover w-full h-full'
-              src='/images/how-long-does-it-take.jpg'
+              src='/images/HowLongDoesItTake.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -46,13 +49,16 @@ const CommonQuestions = () => {
           </div>
           <div className='max-h-fit lg:max-h-64 py-6 w-full bg-mainLightColor text-center'>
             <h4 className='my-4 font-bold text-xl'>How Long Does It Take?</h4>
-            <p className='my-1 text-sm  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
+            <p className='my-1 text-sm text-secondaryLightColor  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
               The whole process takes between 2 to 4 months from the time of
               application to receiving the passport.
             </p>
-            <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/process'}>learn more</Link>
-            </button>
+            <Link
+              className='block w-1/2 mx-auto lg:w-3/4 bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'
+              href={'/process'}
+            >
+              learn more
+            </Link>
           </div>
         </div>
         {/* How Long */}
@@ -62,7 +68,7 @@ const CommonQuestions = () => {
           <div className='w-full lg:h-64 '>
             <Image
               className='block object-cover w-full h-full'
-              src='/images/how-much-does-it-cost.jpg'
+              src='/images/HowMuchDoesItCost.jpg'
               width={400}
               height={400}
               alt='why dominica'
@@ -70,13 +76,16 @@ const CommonQuestions = () => {
           </div>
           <div className='max-h-fit lg:max-h-64 py-6 w-full bg-mainLightColor text-center'>
             <h4 className='my-4 font-bold text-xl'>How Much Does It Cost?</h4>
-            <p className='my-1 text-sm  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
+            <p className='my-1 text-sm text-secondaryLightColor  font-light w-1/2 mx-auto lg:w-full lg:mx-0 lg:px-1'>
               The prices start from USD100,000, and family packages are the most
               affordable option compared to other second citizenship programs.
             </p>
-            <button className='bg-mainColor my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'>
-              <Link href={'/pricing'}>learn more</Link>
-            </button>
+            <Link
+              className='bg-mainColor block w-1/2 lg:w-3/4 mx-auto my-7 px-6 py-3 rounded-md text-mainLightColor uppercase tracking-wider'
+              href={'/pricing'}
+            >
+              learn more
+            </Link>
           </div>
         </div>
         {/* how much does it take */}
