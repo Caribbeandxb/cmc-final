@@ -90,30 +90,31 @@ const DominicaPassportPage = () => {
             </div>
             {/* card */}
             <div
-              className='max-h-fit min-h-fit max-w-full p-3 my-10 bg-mainLightColor
+              className='max-h-fit max-w-3/4 w-3/4 p-3 my-10 bg-mainLightColor
             lg:w-4/12 lg:mx-auto lg:max-h-full lg:my-0
             '
             >
               <div>
-                <h4 className='py-3 uppercase text-secondaryColor tracking-wider'>
+                <h4 className='py-3 uppercase text-secondaryLightColor font-bold lg:text-xl tracking-wider'>
                   APPLY FOR YOUR SECOND CITIZENSHIP NOW
                 </h4>
               </div>
-              <div>
-                <p className='text-slate-50'>
+              <div className='px-2 md:px-6 lg:px-5'>
+                <p className='text-slate-50 '>
                   Dominica's passport is one the fastest and most affordable
                   citizenship by investment programs in the Caribbean region.
                   Starting at only USD100,000 & processing of less than four
                   months, Dominica is now of the most popular destinations for
                   second citizenship in the world.
                 </p>
+                <Link
+                  className='bg-mainColor w-1/2 py-2 px-4 lg:w-3/4 my-3 lg:py-4 lg:px-12 text-center block tracking-wide 
+               text-mainLightColor uppercase active:outline-none focus:outline-none '
+                  href={'/contact-us'}
+                >
+                  apply today
+                </Link>
               </div>
-              <button
-                className='bg-mainColor tracking-wide my-3 py-4 px-12
-               text-secondaryLightColor uppercase active:outline-none focus:outline-none '
-              >
-                <Link href={'/contact-us'}>apply today</Link>
-              </button>
             </div>
             {/* card */}
           </article>
