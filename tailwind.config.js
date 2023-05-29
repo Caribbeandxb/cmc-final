@@ -15,6 +15,11 @@ module.exports = {
         Matisse: '#207798',
         white: '#fff',
       },
+      translate: {
+        translateXB: 'translateX(-100px)',
+        translateXF: 'translateX(0)',
+      },
+      transitionProperty: { display: 'hidden' },
     },
   },
   plugins: [],

@@ -45,9 +45,9 @@ const Navbar = () => {
       {/* open btn */}
       <nav
         className={`${
-          isOpen ? 'absolute' : 'hidden'
-        } top-0 left-0 bg-mainColor h-full overflow-hidden w-full
-        lg:mx-auto lg:block lg:bg-white`}
+          isOpen ? 'translate-y-0' : '-translate-'
+        } top-0 left-0 bg-mainColor h-full overflow-hidden w-full transition-all duration-500
+        lg:mx-auto lg:block lg:bg-transparent`}
       >
         {/* close btn */}
         <div
