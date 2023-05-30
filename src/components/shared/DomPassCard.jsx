@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const DomPassCard = ({ title, txt, btnTxt }) => {
+const DomPassCard = ({ title, txt, btnTxt, rtl = 'right' }) => {
   return (
     <>
       {/* card */}
@@ -10,12 +10,14 @@ const DomPassCard = ({ title, txt, btnTxt }) => {
             '
       >
         <div>
-          <h4 className='py-3 uppercase text-right text-secondaryLightColor font-bold lg:text-xl tracking-wider'>
+          <h4
+            className={`py-3 uppercase text-${rtl} text-secondaryLightColor font-bold lg:text-xl tracking-wider`}
+          >
             {title}
           </h4>
         </div>
         <div className='px-2 md:px-6 lg:px-5'>
-          <p className='text-slate-50 text-right'>{txt}</p>
+          <p className={`text-slate-50 text-${rtl}`}>{txt}</p>
           <Link
             className='bg-mainColor py-2 px-4 lg:w-full my-3 lg:py-4 lg:px-12 text-center block tracking-wide 
           text-mainLightColor text-sm uppercase active:outline-none focus:outline-none '
