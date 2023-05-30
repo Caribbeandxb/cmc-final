@@ -1,8 +1,8 @@
 import Layout from '@/components/layouts';
 import Countries from '@/components/shared/Countries';
 import DomPassCard from '@/components/shared/DomPassCard';
+import DomPassImage from '@/components/shared/DomPassImage';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 
@@ -13,18 +13,9 @@ const DominicaPassportPage = () => {
         <title>CMC | Dominica Passport</title>
       </Head>
       {/* banner  */}
-      <div className='w-screen relative -z-50'>
-        <Image
-          className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
-          src='/images/HowMuchDoesItCost.jpg'
-          width={900}
-          height={900}
-          alt='dominica passport page header'
-        />
-        <p className='absolute text-center text-white text-2xl lg:text-3xl capitalize top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2'>
-          Commonwealth of Dominica Information & Citizenship Benefits
-        </p>
-      </div>
+      <DomPassImage
+        title='Commonwealth of Dominica Information & Citizenship Benefits'
+      />
       {/* to avoid default css styles, use layout here */}
       <Layout>
         <div className='flex items-center'>
