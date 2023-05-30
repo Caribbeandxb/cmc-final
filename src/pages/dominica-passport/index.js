@@ -15,7 +15,7 @@ const DominicaPassportPage = () => {
       <div className='w-screen relative -z-50'>
         <Image
           className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
-          src='/images/dom-passport-bg.jpg'
+          src='/images/HowMuchDoesItCost.jpg'
           width={900}
           height={900}
           alt='dominica passport page header'
@@ -26,6 +26,21 @@ const DominicaPassportPage = () => {
       </div>
       {/* to avoid default css styles, use layout here */}
       <Layout>
+        <div className='flex items-center'>
+          <Link
+            className='block capitalize font-bold cursor-pointer tracking-wider text-secondaryColor transition duration-300 hover:text-mainColor '
+            href={'/dominica-passport/fa'}
+          >
+            farsi
+          </Link>
+          <span>/</span>
+          <Link
+            className='block capitalize font-bold cursor-pointer tracking-wider text-secondaryColor transition duration-300 hover:text-mainColor '
+            href={'/dominica-passport/ch'}
+          >
+            chines
+          </Link>
+        </div>
         <div>
           <h1 className='ml-2 my-5 text-left tracking-widest text-lg text-secondaryColor'>
             "THE NATURE ISLE OF THE CARIBBEAN"
