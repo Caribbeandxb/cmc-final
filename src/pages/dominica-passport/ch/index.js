@@ -10,6 +10,24 @@ const ChDominicaPassport = () => {
     <main className='overflow-x-hidden'>
       <Head>
         <title>CMC | 多米尼克护照</title>
+        <meta
+          property='og:title'
+          content='cmc - 多米尼克护照'
+          key='caribbean management consultancies - dominica passport page / chinese'
+        />
+        <meta
+          property='og:description'
+          content="cmc 多米尼克护照 page - every thing you should know about dominica's passport / chinese"
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - dominica passport page full information in chinese'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       <DomPassImage title='多米尼克联邦信息和公民福利' />
       {/* to avoid default css styles, use layout here */}

@@ -7,6 +7,24 @@ const ProcessPage = () => {
     <Layout>
       <Head>
         <title>CMC | Process</title>
+        <meta
+          property='og:title'
+          content='cmc - process'
+          key='caribbean management consultancies - process page'
+        />
+        <meta
+          property='og:description'
+          content='cmc process page - get full information about dominica process'
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - process'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PROCESS AND ESTIMATED TIMELINE

@@ -11,11 +11,27 @@ const DominicaPassportPage = () => {
     <main className='overflow-x-hidden'>
       <Head>
         <title>CMC | Dominica Passport</title>
+        <meta
+          property='og:title'
+          content='cmc - dominica passport'
+          key='caribbean management consultancies - dominica passport page'
+        />
+        <meta
+          property='og:description'
+          content="cmc dominica passport page - every thing you should know about dominica's passport"
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - dominica passport page full information'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       {/* banner  */}
-      <DomPassImage
-        title='Commonwealth of Dominica Information & Citizenship Benefits'
-      />
+      <DomPassImage title='Commonwealth of Dominica Information & Citizenship Benefits' />
       {/* to avoid default css styles, use layout here */}
       <Layout>
         <div className='flex items-center'>

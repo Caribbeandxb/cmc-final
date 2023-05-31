@@ -9,6 +9,24 @@ const HomePage = () => {
     <Layout>
       <Head>
         <title>CMC</title>
+        <meta
+          property='og:title'
+          content='cmc'
+          key='caribbean management consultancies'
+        />
+        <meta
+          property='og:description'
+          content='cmc landing page - general information'
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       {/* main header */}
       <HeaderCart />

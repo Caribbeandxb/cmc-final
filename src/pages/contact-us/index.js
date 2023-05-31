@@ -18,6 +18,24 @@ const ContactUsPage = () => {
     <Layout>
       <Head>
         <title>CMC | Contact Us</title>
+        <meta
+          property='og:title'
+          content='cmc - contact us'
+          key='caribbean management consultancies -  contact us'
+        />
+        <meta
+          property='og:description'
+          content='cmc contact us page - how to reach us'
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - included our office address, whatsapp number and email plus our form to send us a messaged '
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       <h1 className='text-center font-bold  capitalize text-xl text-secondaryLightColor'>
         contact us

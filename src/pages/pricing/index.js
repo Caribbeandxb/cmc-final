@@ -7,6 +7,24 @@ const PricingPage = () => {
     <Layout>
       <Head>
         <title>CMC | Pricing</title>
+        <meta
+          property='og:title'
+          content='cmc - pricing'
+          key='caribbean management consultancies - pricing page'
+        />
+        <meta
+          property='og:description'
+          content="cmc pricing page - how much does it costs to get dominica's passport?"
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - pricing'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PRICING PLANS AND COSTS{' '}

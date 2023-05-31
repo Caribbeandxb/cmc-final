@@ -7,7 +7,7 @@ const DomPassImage = ({ title }) => {
       <div className='w-screen relative -z-50'>
         <Image
           className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
-          src='/images/dp-bg.jpg'
+          src='/images/dom-pass-bg-min.jpg'
           width={900}
           height={900}
           alt='dominica passport page header'

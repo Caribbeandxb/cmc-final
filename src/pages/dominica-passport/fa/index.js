@@ -11,6 +11,24 @@ const FaDominicaPassport = () => {
     <main className='overflow-x-hidden'>
       <Head>
         <title>CMC | پاسپورت دومنیکا</title>
+        <meta
+          property='og:title'
+          content='cmc - پاسپورت دومنیکا '
+          key='caribbean management consultancies - dominica passport page / farsi'
+        />
+        <meta
+          property='og:description'
+          content="cmc process page - every thing you should know about dominica's passport / farsi"
+          key='ogdesc'
+        />
+        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta
+          property='og:site_name'
+          content='caribbean management consultancies - dominica passport page full information in farsi'
+          key='ogsitename'
+        />
+        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta property='og:type' content='profile' key='ogtype' />
       </Head>
       {/* banner  */}
 
