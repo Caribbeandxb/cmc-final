@@ -8,8 +8,8 @@ const DomPassImage = ({ title }) => {
         <Image
           className='w-full h-40 lg:h-72 object-cover block m-0 p-0 '
           src='/images/dom-pass-bg-min.jpg'
-          width={900}
-          height={900}
+          width={3000}
+          height={3000}
           alt='dominica passport page header'
           priority={true}
         />
