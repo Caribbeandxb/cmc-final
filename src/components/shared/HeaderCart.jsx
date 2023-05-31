@@ -8,9 +8,9 @@ const HeaderCart = () => {
         {/* Cart header start */}
         <article className='w-full h-48 md:max-w-6xl md:mx-auto md:max-h-full md:h-full md:flex'>
           {/* cart Image */}
-          <div className='block w-full m-0  md:m-0'>
+          <div className='block max-w-full m-0  md:m-0'>
             <Image
-              className='w-full object-cover md:h-full md:w-full md:m-0'
+              className='w-full object-cover md:max-h-full md:w-full md:m-0'
               src={'/images/HomePageMain.jpg'}
               alt='header'
               width={500}
