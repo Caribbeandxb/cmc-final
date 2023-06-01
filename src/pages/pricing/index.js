@@ -47,13 +47,13 @@ const PricingPage = () => {
           <div className='mb-16'>
             <ul className=''>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Single applicant USD 100,000{' '}
+                Single applicant USD 115,000{' '}
               </li>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Main applicant plus spouse USD 150,000{' '}
+                Main applicant plus spouse USD 135,000{' '}
               </li>
               <li className='mb-3  p-3 text-lg first-letter:uppercase '>
-                Family of three or four USD 175,000{' '}
+                Family of three or four (kids under 16) USD 135,000{' '}
               </li>
             </ul>
           </div>
