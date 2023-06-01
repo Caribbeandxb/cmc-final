@@ -1,0 +1,6 @@
+# *
+user-agent:*
+Allow:/
+
+
+Sitemap: http://www.caribbeandxb.com/sitemap.xml
