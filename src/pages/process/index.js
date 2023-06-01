@@ -23,8 +23,14 @@ const ProcessPage = () => {
           content='caribbean management consultancies - process'
           key='ogsitename'
         />
-        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta
+          property='og:url'
+          content='https://www.caribbeandxb.com/'
+          key='ogurl'
+        />
         <meta property='og:type' content='profile' key='ogtype' />
+        <meta name='google' content='notranslate' key='notranslate' />
+        <meta name='robots' content='all' />
       </Head>
       <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PROCESS AND ESTIMATED TIMELINE

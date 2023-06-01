@@ -27,8 +27,14 @@ const FaDominicaPassport = () => {
           content='caribbean management consultancies - dominica passport page full information in farsi'
           key='ogsitename'
         />
-        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta
+          property='og:url'
+          content='https://www.caribbeandxb.com/'
+          key='ogurl'
+        />
         <meta property='og:type' content='profile' key='ogtype' />
+        <meta name='google' content='notranslate' key='notranslate' />
+        <meta name='robots' content='all' />
       </Head>
       {/* banner  */}
 

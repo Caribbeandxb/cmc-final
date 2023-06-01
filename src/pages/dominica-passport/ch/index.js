@@ -26,8 +26,14 @@ const ChDominicaPassport = () => {
           content='caribbean management consultancies - dominica passport page full information in chinese'
           key='ogsitename'
         />
-        <meta property='og:url' content='https://your-site-name/' key='ogurl' />
+        <meta
+          property='og:url'
+          content='https://www.caribbeandxb.com/'
+          key='ogurl'
+        />
         <meta property='og:type' content='profile' key='ogtype' />
+        <meta name='google' content='notranslate' key='notranslate' />
+        <meta name='robots' content='all' />
       </Head>
       <DomPassImage title='多米尼克联邦信息和公民福利' />
       {/* to avoid default css styles, use layout here */}
