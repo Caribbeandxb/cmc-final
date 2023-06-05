@@ -35,9 +35,9 @@ const PricingPage = () => {
       <h3 className='tracking-wider text-xl text-center mb-10 font-bold  text-mainLightColor uppercase'>
         PRICING PLANS AND COSTS{' '}
       </h3>
-      <article className='max-w-lg mx-auto block'>
+      <article className='max-w-lg mx-auto block h-full'>
         {/* first state */}
-        <div className='border-b-2 mb-20'>
+        <div className='border-b-2 mb-5 h-full'>
           <h1 className='font-medium text-secondaryLightColor text-2xl'>
             Economic Diversification Fund (Donation){' '}
           </h1>
@@ -60,7 +60,7 @@ const PricingPage = () => {
         </div>
         {/* first state */}
         {/* second state */}
-        <div className='border-b-2  mb-10'>
+        {/* <div className='border-b-2  mb-10'>
           <h1 className='font-medium text-secondaryLightColor text-2xl'>
             Additional EDF Fees{' '}
           </h1>
@@ -90,15 +90,15 @@ const PricingPage = () => {
               </li>
             </ul>
           </div>
-        </div>
+        </div> */}
         {/* second state */}
 
-        <p className='text-slate-500 text-sm text-center mb-10 w-3/4 lg:w-full mx-auto'>
+      </article>
+        <p className='text-slate-500 text-sm text-center w-3/4 md:w-6/12 mx-auto'>
           Enhanced due diligence fees may sometimes be required, depending on
           the applicant’s current citizenship status, and other personal
           circumstances.{' '}
         </p>
-      </article>
     </Layout>
   );
 };
