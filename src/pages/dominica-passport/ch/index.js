@@ -38,7 +38,7 @@ const ChDominicaPassport = () => {
       <DomPassImage title='多米尼克联邦信息和公民福利' />
       {/* to avoid default css styles, use layout here */}
       <Layout>
-        <div className='flex items-center'>
+        <div className='flex items-center justify-around'>
           <Link
             className='block capitalize font-bold cursor-pointer tracking-wider text-secondaryColor transition duration-300 hover:text-mainColor '
             href={'/dominica-passport'}
