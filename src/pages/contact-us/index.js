@@ -2,7 +2,7 @@ import Layout from '@/components/layouts';
 import Head from 'next/head';
 import React, { useEffect, useRef } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp ,FaPhone} from 'react-icons/fa';
 const ContactUsPage = () => {
   const nameRef = useRef(null);
   const email = useRef(null);
@@ -121,6 +121,11 @@ const ContactUsPage = () => {
           <p className='font-bold text-lg'>
             {' '}
             Office 106, Al Salemiyah Tower, Deira, Dubai, UAE
+              <span className='flex items-center justify-center my-5'>
+              <FaPhone className='text-green-700'/>
+              +971 43 43 4261
+              </span>
+
           </p>
           <p className='font-bold my-3'>
             <a
@@ -135,11 +140,11 @@ const ContactUsPage = () => {
           <p>
             <a
               className='flex items-center justify-center w-fit mx-auto'
-              href='https://wa.me/+971508413633'
+              href='https://wa.me/+971522551154'
               target='_blank'
             >
               <FaWhatsapp className='inline text-2xl text-green-700' />
-              +971 4 3434261
+              +971 52 255 1154
             </a>{' '}
           </p>
         </div>

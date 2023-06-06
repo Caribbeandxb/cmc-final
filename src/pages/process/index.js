@@ -53,7 +53,7 @@ const ProcessPage = () => {
                 Providing the supporting documents
               </li>
               <li className='mb-3  p-3 text-lg first-letter:uppercase '>
-                Initial payment of due diligence fee
+                Initial payment
               </li>
             </ul>
           </div>
@@ -93,14 +93,14 @@ const ProcessPage = () => {
                 After approval contribution is paid
               </li>
               <li className='my-3 p-3 text-lg first-letter:uppercase '>
-                Passports are issued in 2-4 weeks
+                Passports are issued in 2-4 months
               </li>
             </ul>
           </div>
         </div>
         {/* third state */}
         <p className='text-slate-500 text-sm text-center mb-10'>
-          The entire process usually takes between two to four months.
+          The entire process usually takes around six months.
         </p>
       </article>
     </Layout>
