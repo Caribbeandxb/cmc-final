@@ -40,7 +40,7 @@ const DominicaPassportPage = () => {
       <DomPassImage title='Commonwealth of Dominica Information & Citizenship Benefits' />
       {/* to avoid default css styles, use layout here */}
       <Layout>
-        <div className='flex items-center'>
+        <div className='flex items-center justify-around'>
           <Link
             className='block capitalize font-bold cursor-pointer tracking-wider text-secondaryColor transition duration-300 hover:text-mainColor '
             href={'/dominica-passport/fa'}

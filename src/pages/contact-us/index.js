@@ -118,7 +118,7 @@ const ContactUsPage = () => {
             {/*  */}
             caribbean management consultancies
           </h5>
-          <p className='font-bold text-lg'>
+          <p className='text-lg'>
             {' '}
             Office 106, Al Salemiyah Tower, Deira, Dubai, UAE
               <span className='flex items-center justify-center my-5'>
@@ -127,7 +127,7 @@ const ContactUsPage = () => {
               </span>
 
           </p>
-          <p className='font-bold my-3'>
+          <p className='my-3'>
             <a
               className='flex items-center justify-center w-fit mx-auto'
               href='mailto:info@Caribbeandxb.com'
