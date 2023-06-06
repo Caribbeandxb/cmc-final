@@ -87,11 +87,11 @@ const ContactUsPage = () => {
         {/* text */}
         <div className='flex flex-col w-full '>
           <label className='capitalize' htmlFor='message'>
-            text
+            message
           </label>
           <input
             className='border-b-2 focus:outline-none focus:border-mainLightColor'
-            type='text'
+            type='message'
             name='message'
             maxLength={1000}
             minLength={12}
