@@ -121,13 +121,13 @@ const ContactUsPage = () => {
           <p className='text-lg'>
             {' '}
             Office 106, Al Salemiyah Tower, Deira, Dubai, UAE
-              <span className='flex items-center justify-center my-5'>
+              <span className='flex items-center justify-center'>
               <FaPhone className='text-green-700'/>
               +971 43 43 4261
               </span>
 
           </p>
-          <p className='my-3'>
+          <p className='my-3 text-lg'>
             <a
               className='flex items-center justify-center w-fit mx-auto'
               href='mailto:info@Caribbeandxb.com'
@@ -137,7 +137,7 @@ const ContactUsPage = () => {
               info@Caribbeandxb.com
             </a>
           </p>
-          <p>
+          <p className='text-lg'>
             <a
               className='flex items-center justify-center w-fit mx-auto'
               href='https://wa.me/+971522551154'
