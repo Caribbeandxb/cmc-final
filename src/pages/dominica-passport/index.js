@@ -122,7 +122,7 @@ const DominicaPassportPage = () => {
               title='APPLY FOR YOUR SECOND CITIZENSHIP NOW'
               txt=" Dominica's passport is one the fastest and most affordable
                   citizenship by investment programs in the Caribbean region.
-                  Starting at only USD100,000 & processing of less than four
+                  Starting at only USD115,000 & processing of less than four
                   months, Dominica is now of the most popular destinations for
                   second citizenship in the world."
               btnTxt='apply today'
