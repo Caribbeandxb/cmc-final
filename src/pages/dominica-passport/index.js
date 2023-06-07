@@ -116,7 +116,8 @@ const DominicaPassportPage = () => {
                 {/* countries */}
                 <Countries />
               </div>
-            </div>
+            </div> 
+            
             {/* card */}
             <DomPassCard
               title='APPLY FOR YOUR SECOND CITIZENSHIP NOW'
