@@ -2,7 +2,7 @@ import Layout from '@/components/layouts';
 import Head from 'next/head';
 import React, { useEffect, useRef } from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import { FaWhatsapp ,FaPhone} from 'react-icons/fa';
+import { FaWhatsapp, FaPhone } from 'react-icons/fa';
 const ContactUsPage = () => {
   const nameRef = useRef(null);
   const email = useRef(null);
@@ -18,6 +18,22 @@ const ContactUsPage = () => {
     <Layout>
       <Head>
         <title>CMC | Contact Us</title>
+
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
+
+        <link rel='canonical' href='https://www.caribbeandxb.com/contact-us' />
+        <meta name=' robots' content=' index, follow' />
+
+        <meta
+          name='description'
+          content='caribbean management consultancies, reach out to our consultancies to consult you for free. want to contact us? here is how!'
+        />
+        <meta
+          name='google-site-verification'
+          content='+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34='
+        />
+
         <meta
           property='og:title'
           content='cmc - contact us'
@@ -121,11 +137,10 @@ const ContactUsPage = () => {
           <p className='text-lg'>
             {' '}
             Office 106, Al Salemiyah Tower, Deira, Dubai, UAE
-              <span className='flex items-center justify-center'>
-              <FaPhone className='text-green-700'/>
+            <span className='flex items-center justify-center'>
+              <FaPhone className='text-green-700' />
               +971 43 43 4261
-              </span>
-
+            </span>
           </p>
           <p className='my-3 text-lg'>
             <a

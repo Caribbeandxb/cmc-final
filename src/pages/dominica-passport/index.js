@@ -11,6 +11,25 @@ const DominicaPassportPage = () => {
     <main className='overflow-x-hidden'>
       <Head>
         <title>CMC | Dominica Passport</title>
+
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
+
+        <link
+          rel='canonical'
+          href='https://www.caribbeandxb.com/dominica-passport'
+        />
+        <meta name=' robots' content=' index, follow' />
+
+        <meta
+          name='description'
+          content="caribbean management consultancies, what does dominica's passport worth, and how to get it. a general information has given to you to get to know more about dominica's passport"
+        />
+        <meta
+          name='google-site-verification'
+          content='+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34='
+        />
+
         <meta
           property='og:title'
           content='cmc - dominica passport'

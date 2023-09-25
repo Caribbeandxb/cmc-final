@@ -7,6 +7,22 @@ const ProcessPage = () => {
     <Layout>
       <Head>
         <title>CMC | Process</title>
+
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
+
+        <link rel='canonical' href='https://www.caribbeandxb.com/process' />
+        <meta name=' robots' content=' index, follow' />
+
+        <meta
+          name='description'
+          content='caribbean management consultancies,a short description of what we do for you to get your new passport and how long does it take'
+        />
+        <meta
+          name='google-site-verification'
+          content='+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34='
+        />
+
         <meta
           property='og:title'
           content='cmc - process'

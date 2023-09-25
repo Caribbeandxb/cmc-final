@@ -9,11 +9,25 @@ const HomePage = () => {
     <Layout>
       <Head>
         <title>CMC</title>
+        <meta charset='utf-8' />
+        <meta name='viewport' content='width=device-width,initial-scale=1' />
         <meta
           property='og:title'
           content='cmc'
           key='caribbean management consultancies'
         />
+        <link rel='canonical' href='https://www.caribbeandxb.com/' />
+        <meta name=' robots' content=' index, follow' />
+
+        <meta
+          name='description'
+          content='caribbean management consultancies, home page and introduction to our services. make sure to check the rest of the website'
+        />
+        <meta
+          name='google-site-verification'
+          content='+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34='
+        />
+
         <meta
           property='og:description'
           content='cmc landing page - general information'
