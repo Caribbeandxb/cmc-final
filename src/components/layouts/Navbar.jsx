@@ -9,7 +9,7 @@ const Navbar = () => {
     'home',
     'dominica passport',
     'process',
-    'pricing',
+    // 'pricing',
     'contact us',
   ];
   // getting current path
