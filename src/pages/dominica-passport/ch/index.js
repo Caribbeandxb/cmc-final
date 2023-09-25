@@ -20,7 +20,7 @@ const ChDominicaPassport = () => {
           content="cmc 多米尼克护照 page - every thing you should know about dominica's passport / chinese"
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - dominica passport page full information in chinese'
@@ -82,7 +82,7 @@ const ChDominicaPassport = () => {
             {/* card */}
             <DomPassCard
               title='立即申请您的第二公民身份！'
-              txt='多米尼克的护照是加勒比地区最快、最实惠的投资入籍项目之一。 起价仅为 115,000 美元，处理时间不到四个月，多米尼克现已成为世界上第二公民身份最受欢迎的目的地之一。'
+              txt='多米尼克的护照是加勒比地区最快、最实惠的投资入籍项目之一。多米尼克现已成为世界上第二公民身份最受欢迎的目的地之一。'
               btnTxt='今天申请'
               rtl='left'
             />

@@ -21,7 +21,7 @@ const FaDominicaPassport = () => {
           content="cmc process page - every thing you should know about dominica's passport / farsi"
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - dominica passport page full information in farsi'
@@ -99,9 +99,9 @@ const FaDominicaPassport = () => {
             </div>
             <DomPassCard
               title='اکنون برای تابعیت دوم خود اقدام کنید'
-              txt='پاسپورت دومینیکا یکی از سریع ترین و مقرون به صرفه ترین شهروندی توسط
-            برنامه های سرمایه گذاری در منطقه کارائیب است. دومینیکا با شروع تنها
-            115000 دلار و پردازش کمتر از چهار ماه، اکنون یکی از محبوب ترین مقاصد
+              txt='پاسپورت دومینیکا یکی از سریع ترین و مقرون به صرفه ترین شهروندی ها توسط
+            برنامه های سرمایه گذاری در منطقه کارائیب است.   
+             مدت زمان تحویل پاسپورت کمتر از چهار ماه میباشد،که اکنون یکی از محبوب ترین مقاصد
             برای شهروندی دوم در جهان است.'
               btnTxt='امروز اقدام کنید'
             />

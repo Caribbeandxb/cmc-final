@@ -19,7 +19,7 @@ const HomePage = () => {
           content='cmc landing page - general information'
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies'

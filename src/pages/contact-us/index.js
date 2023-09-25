@@ -28,7 +28,7 @@ const ContactUsPage = () => {
           content='cmc contact us page - how to reach us'
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - included our office address, whatsapp number and email plus our form to send us a messaged '

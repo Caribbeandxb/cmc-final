@@ -21,7 +21,7 @@ const DominicaPassportPage = () => {
           content="cmc dominica passport page - every thing you should know about dominica's passport"
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - dominica passport page full information'
@@ -116,14 +116,14 @@ const DominicaPassportPage = () => {
                 {/* countries */}
                 <Countries />
               </div>
-            </div> 
-            
+            </div>
+
             {/* card */}
             <DomPassCard
               title='APPLY FOR YOUR SECOND CITIZENSHIP NOW'
               txt=" Dominica's passport is one the fastest and most affordable
                   citizenship by investment programs in the Caribbean region.
-                  Starting at only USD115,000 & processing of less than four
+                    processing of less than four
                   months, Dominica is now of the most popular destinations for
                   second citizenship in the world."
               btnTxt='apply today'

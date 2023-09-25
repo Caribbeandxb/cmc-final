@@ -17,7 +17,7 @@ const PricingPage = () => {
           content="cmc pricing page - how much does it costs to get dominica's passport?"
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - pricing'

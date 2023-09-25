@@ -17,7 +17,7 @@ const ProcessPage = () => {
           content='cmc process page - get full information about dominica process'
           key='ogdesc'
         />
-        <meta property='og:image' content='/images/logo-tr.png' key='ogimage' />
+        <meta property='og:image' content='/images/logo_tr.png' key='ogimage' />
         <meta
           property='og:site_name'
           content='caribbean management consultancies - process'

@@ -30,7 +30,7 @@ const Navbar = () => {
           <Link className='block m-0 p-0 w-1/2 mx-auto' href={'/'}>
             <Image
               className='block object-cover w-full lg:max-h-24 mx-auto'
-              src='/images/logo-tr.png'
+              src='/images/logo_tr.png'
               width={425}
               height={450}
               alt='cmc logo'
