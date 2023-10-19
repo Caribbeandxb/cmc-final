@@ -10,6 +10,10 @@ const HomePage = () => {
       <Head>
         <title>CMC</title>
         <meta charset='utf-8' />
+        <meta
+          name='google-site-verification'
+          content='-HJxY8T9T10tOjQsLUbzqx-s7RW0yZmQR967j2HFb2Y'
+        />
         <meta name='viewport' content='width=device-width,initial-scale=1' />
         <meta
           property='og:title'
